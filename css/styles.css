@@ -1,0 +1,247 @@
+    /*** Add your styles here **/
+    
+    body {
+        background-color: #ffffff;
+    }
+    /*** AAntes teniamos h2 en los dos siguientes**/
+    
+    .encabezado {
+        font-size: 30rem;
+        font-family: "helvetica";
+        color: rgb(21, 192, 211);
+        line-height: 2.7rem;
+    }
+    
+    .encabezado span {
+        font-size: 9rem;
+        font-family: "helvetica";
+        color: rgb(34, 240, 243);
+    }
+    
+    a {
+        color: #ffffff;
+        font-size: 2rem;
+    }
+    /** Sociales **/
+    
+    .sociales ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .sociales ul li {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .sociales ul li a::before {
+        font-family: 'FontAwesome';
+        display: inline-block;
+        vertical-align: top;
+        padding: 0.4rem;
+        content: '\f08e';
+        -webkit-font-smoothing: antialiased;
+        font-size: 2rem;
+        color: #06f5f5;
+    }
+    
+    .sociales ul li a[href*="facebook.com"]::before {
+        content: '\f230';
+    }
+    
+    .sociales ul li a[href*="twitter.com"]::before {
+        content: '\f081';
+    }
+    
+    .sociales ul li a[href*="instagram.com"]::before {
+        content: '\f16d';
+    }
+    
+    .sociales ul li a[href*="pinterest.com"]::before {
+        content: '\f0d2';
+    }
+    
+    .sociales ul li a[href*="youtube.com"]::before {
+        content: '\f16a';
+    }
+    /**NAVEGACION**/
+    
+    .navegacion {
+        background-color: rgb(20, 214, 182);
+    }
+    
+    .navbar-light .navbar-toggler {
+        background-color: azure;
+    }
+    
+    .navbar-light .navbar-brand,
+    .navbar-light .navbar-brand:hover {
+        color: #ffffff;
+    }
+    /*.nav-principal {
+    background-image: url(../img/border_horizontal.png), url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;*/
+}
+.nav-link {
+    color: #ffffff;
+    font-size: 5rem;
+    transition: background-color .8s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-link:hover {
+    background-color: #39a68b;
+    color: #ffffff;
+}
+.Biografia {
+    color: rgb(10, 216, 154);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    border: 2%;
+    justify-content: left;
+    font-family: Helvetica;
+}
+@media(max-width:778px) {
+    .Biografia {
+        font-size: 3rem;
+    }
+    /*CAROUSEL*/
+    
+    .carousel-family {
+        font-family: 'Raleway', sans-serif;
+        font-size: 2rem;
+        font-weight: 900;
+        color: #ffffff;
+    }
+    
+    .container .principal {
+        background-color: red;
+        color: white;
+    }
+    
+    .text-dark {
+        color: #12d6a5!important;
+    }
+    /*Productos 4 / cuadricula */
+    
+    .productos .card {
+        border: none;
+    }
+    
+    .productos .card a {
+        color: black;
+    }
+    
+    .productos .card a:hover {
+        text-decoration: none;
+    }
+    
+    .productos .card h3 {
+        color: rgb(10, 224, 167);
+        font-size: 1.2rem;
+        font-family: "lato", sans-serif;
+    }
+    
+    .productos .card p {
+        font-size: .8rem;
+    }
+    
+    .productos .card .precio {
+        font-size: 1.6rem;
+        color: black;
+    }
+    /*Productos 4 / cuadricula */
+    /*CITAS*/
+    
+    .citas {
+        background-image: url(../img/beachh.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        color: #ffffff;
+    }
+    
+    @media(mind-width:992px) {
+        .citas {
+            background-size: cover;
+        }
+    }
+    
+    .citas h3 {
+        font-size: 3.5rem;
+        font-family: "lato", sans-serif;
+    }
+    
+    .citas p {
+        font-size: 1.2rem;
+        line-height: 2.6rem;
+    }
+    /*.citas*/
+    
+    .btn-primary {
+        background-color: rgb(10, 224, 167);
+        border: 0;
+        padding: 1rem 5rem;
+        border-radius: 0;
+        font-family: "lato", sans-serif;
+        font-size: 1.6rem;
+    }
+    
+    .btn-primary :hover {
+        background-color: rgb(10, 224, 167);
+    }
+    
+    .copyright {
+        color: rgb(7, 146, 97);
+        font-size: 2rem;
+    }
+    /*HERO*/
+    
+    .hero {
+        position: relative;
+    }
+    
+    .hero h2 {
+        position: absolute;
+        bottom: 3rem;
+        right: 0;
+        background-color: rgb(6, 132, 211);
+        font-family: "Raleway", sans-serif;
+        font-weight: 900;
+        color: #ffffff;
+        font-size: 2.5rem;
+    }
+    
+    .contenido-principal p {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+        justify-content: center;
+    }
+    /**SIDEBAR**/
+    
+    #servicios .card-header {
+        background-color: #642aec;
+        padding: 0 1.25rem;
+        text-decoration: none;
+    }
+    
+    #servicios .card-header .btn-link {
+        color: #10ebf3;
+        justify-content: center;
+        font-family: "Helvetica", sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    #servicios .card-body {
+        font-size: 1.2rem;
+    }
+    
+    .footer-sitio {
+        background-color: rgb(10, 224, 167);
+        color: #137be2!important;
+    }
